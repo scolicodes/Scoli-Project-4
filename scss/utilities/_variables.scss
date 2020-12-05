@@ -1,0 +1,20 @@
+/* ============================================= */
+/*              Variables                        */
+/* ============================================= */
+
+// Colors
+
+$color-font: #777;
+$color-main: #58e1c1;
+$color-secondary: #51ddfc;
+$color-background-1: #927bc1;
+$color-background-2: #e4757a;
+
+$color-background-1-light: lighten($color-background-1, 15%);
+$color-secondary-light: lighten($color-secondary, 15%);
+$color-font-dark: darken($color-font, 15%);
+$color-main-complement: complement($color-main);
+
+// Media Query Breakpoint
+
+$brk-narrow: '(min-width: 768px)';
