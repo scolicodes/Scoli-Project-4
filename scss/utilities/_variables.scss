@@ -9,9 +9,15 @@ $color-main: #58e1c1;
 $color-secondary: #51ddfc;
 $color-background-1: #927bc1;
 $color-background-2: #e4757a;
+$color-background-3: #63cc82;
+$color-background-4: #fd7856;
 
 $color-background-1-light: lighten($color-background-1, 15%);
+$color-background-2-light: lighten($color-background-2, 15%);
+$color-background-3-light: lighten($color-background-3, 15%);
+$color-background-4-light: lighten($color-background-4, 15%);
 $color-secondary-light: lighten($color-secondary, 15%);
+
 $color-font-dark: darken($color-font, 15%);
 $color-main-complement: complement($color-main);
 
